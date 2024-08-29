@@ -1,3 +1,23 @@
 body{
-    background-color: rgb(29, 29, 29);
+    background-color:#1c1c1c;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table,
+th,
+td {
+  border: 1px solid #e7e7e7;
+}
+
+body {
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#insert {
+    text-align: center;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
 }
