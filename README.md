@@ -1,4 +1,4 @@
-# JavaScript Keyboard Tester
+# JavaScript Keyboard Tester - KeyMaster
 
 Welcome to the **JavaScript Keyboard Tester**! This simple yet powerful tool helps you test the functionality of your keyboard keys right in your browser. It's perfect for quickly checking if all your keys are working correctly.
 
