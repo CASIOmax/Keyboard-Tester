@@ -8,11 +8,14 @@ const colorGen=function(){
     return color;
 }
 const insert=document.getElementById('insert')
-const hiddenInput = document.getElementById('hiddenInput');
+// const hiddenInput = document.getElementById('hiddenInput');
 
-document.body.addEventListener('touchstart', function() {
-  hiddenInput.focus();
-});
+// document.body.addEventListener('touchstart', function() {
+//   hiddenInput.focus();
+// });
+
+document.querySelector('input').focus();
+
 window.addEventListener('keydown',function(e){
     const rand=colorGen();
     insert.innerHTML=`
