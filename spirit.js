@@ -10,8 +10,8 @@ const colorGen=function(){
 const insert=document.getElementById('insert')
 const hiddenInput = document.getElementById('hiddenInput');
 
-window.addEventListener('load', function() {
-    hiddenInput.focus();
+document.body.addEventListener('touchstart', function() {
+  hiddenInput.focus();
 });
 window.addEventListener('keydown',function(e){
     const rand=colorGen();
